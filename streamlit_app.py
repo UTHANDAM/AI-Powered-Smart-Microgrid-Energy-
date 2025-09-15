@@ -25,7 +25,7 @@ def load_model_and_scaler():
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('renewable-share-energy.csv')
+    df = pd.read_csv('01 renewable-share-energy.csv')
     return df
 
 try:
